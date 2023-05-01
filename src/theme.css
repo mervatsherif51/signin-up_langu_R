@@ -1,0 +1,65 @@
+.theme-btn {
+  outline: 0;
+  border-radius: 1rem;
+  padding: .1rem .5rem;
+  color: #FFF;
+  /* background-color: #3d4a59; */
+  background-color: transparent;
+  border: 1.5px solid #ddd;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all .3s;
+}
+
+.theme-btn:hover {
+  box-shadow: 0 0 10px #555 0 0 40px #555 0 0 80px #555;
+  background: #555;
+  border: none;
+  outline: 0;
+
+}
+
+.theme-btn:focus {
+  padding: 4px 12px;
+  box-shadow: 0 0 10px #9e4673 0 0 40px #9e4673 0 0 80px #9e4673;
+  box-shadow: 0 0 0 5px #3d4e39, 0 0 0 6px #FFF
+}
+
+/* Organize Dark Mode */
+.Dark {
+  background-color: #242424;
+  color: #FFF;
+}
+
+.Light {
+  background-color: #fdfdfc;
+  color: #000;
+}
+
+.Dark main {
+  color: #FFF;
+}
+
+.Dark .ali {
+  background-color: #000 !important;
+}
+
+/* Organize Sun & Moon Icon */
+.fa-sun, .fa-moon  {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Light .fa-sun {
+  display: none;
+
+}
+
+.fa-sun {
+  color: orange;
+}
+
+.Dark .fa-moon {
+  display: none;
+}
+

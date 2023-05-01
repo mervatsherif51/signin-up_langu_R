@@ -1,0 +1,126 @@
+/* Table Of Content */
+/*
+ 1-    OPTIONS (filtered data)
+2-    SHOW all tasks 
+3-    Add new tasks BTN 
+4-  Model    */
+
+/* ****************************
+1-    OPTIONS (filtered data)
+**************************** */
+
+.home .parent-of-btns button {
+  background-color: #3467c2;
+  font-size: 16px;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.home select {
+  background-color: #666;
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* ****************************
+2-    SHOW all tasks 
+**************************** */
+
+.home .all-tasks {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.home .task-link{
+  display: block;
+  height: 100%;
+}
+
+.home .all-tasks .one-task {
+  border: 2px solid antiquewhite;
+  margin: 40px 20px;
+  width: 300px;
+  height: 141px;
+  border-radius: 5px;
+  transition: 0.2s;
+  position: relative;
+}
+
+.home .all-tasks .one-task:hover {
+  border-left: 8px solid antiquewhite;
+  cursor: pointer;
+}
+
+.home .all-tasks .one-task h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.home .all-tasks .one-task li {
+  list-style-type: circle;
+  list-style-position: inside;
+  line-height: 29px;
+  font-size: 13px;
+  /* WORNG */
+  text-align: start;
+  margin: 0px 11px;
+}
+
+.home .all-tasks .one-task .time time {
+  font-size: 12px;
+  font-weight: normal;
+  color: rgb(164, 213, 255);
+  position: absolute;
+  right: 9px;
+  bottom: 7px;
+}
+
+/* Organize color In Light Mode */
+
+.Light .home .all-tasks .one-task h2,
+.Light .home .all-tasks .one-task li,
+.Light .home .all-tasks .one-task .time {
+  color: rgb(65, 71, 84);
+  font-weight: 800;
+}
+
+.Light .home .all-tasks .one-task {
+  border: 2px solid teal;
+}
+
+.Light .home .all-tasks .one-task:hover {
+  border-left: 8px solid teal;
+}
+
+/* ****************************
+3-    Add new tasks BTN
+**************************** */
+.home .add-task-btn {
+  background-color: teal;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 44px;
+}
+
+.home .add-task-btn .fa-plus {
+  font-size: 14px;
+  margin: 0px 7px;
+}
+
+/* ****************************
+4-  Model
+**************************** */
+
+.home .model li {
+  color: #333;
+  font-size: 13px;
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-bottom: 6px;
+}
+

@@ -1,0 +1,19 @@
+
+/* organize button forgot password into sign-in */
+.forgot-pass {
+  font-size: 19px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.forgot-pass:hover {
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.show-forgot-password {
+  /* scale: 1; */
+  transform: translateY(0);
+
+}
